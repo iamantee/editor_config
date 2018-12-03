@@ -19,6 +19,7 @@
 
 ;; enable functionalities
 ;; common
+(setq backup-directory-alist '(("" . "~/.emacs.d/backup"))) ;; put all backup files under one directory
 (setq c-default-style "linux"
           c-basic-offset 2)
 (global-linum-mode t)
