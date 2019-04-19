@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if statement
+# key: if
+# --
+if(${1:condiction}) {
+  ${2:true condiction logic};
+}
